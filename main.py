@@ -26,6 +26,4 @@ def get_item(item_id: int) -> str:
     else:
         raise HTTPException(status_code=404, detail="Item not found")
 
-git commit -m "Subiendo proyecto al repositorio testFuncionalidades"
-
 
